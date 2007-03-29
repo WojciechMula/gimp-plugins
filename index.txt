@@ -18,13 +18,13 @@ picture above.  In other cases plugin will not work properly.
 
 * `clear_gscans.py <clear_gscans.py>`_
 
-Plugin is available in ``Filters`` menu.
+Plugin is available from ``Filters`` menu.
 
 Before:
-	.. image: cgs-before.png
+	.. image:: cgs-before.png
 
 After:
-	.. image: cgs-after.png
+	.. image:: cgs-after.png
 
 
 
@@ -32,7 +32,7 @@ Save in HTML format descriptions of functions available for programmers
 ------------------------------------------------------------------------
 
 Static version of PDB browser available in GIMP.
-Plugin is available in ``Tools`` menu.
+Plugin is available from ``Tools/Python-fu`` menu.
 
 * `pdb2HTML.py <pdb2HTML.py>`_
 * `gimp-doc.tar.bz2 <gimp-doc.tar.bz2>`_ --- documentation
