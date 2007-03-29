@@ -1,0 +1,47 @@
+========================================================================
+                           GIMP plugins
+========================================================================
+
+Last update: 29.03.2007
+
+
+Plugins sources have to be placed in ``{home}/.gimp-{version}/plug-ins``,
+and must have executable attribute.
+
+
+Clear grayscale scans
+------------------------------------------------------------------------
+
+This plugin clears background of b/w scanned images.  The letters have
+to be clear, and background should have low amount of dust, like on
+picture above.  In other cases plugin will not work properly.
+
+* `clear_gscans.py <clear_gscans.py>`_
+
+Plugin is available in ``Filters`` menu.
+
+Before:
+	.. image: cgs-before.png
+
+After:
+	.. image: cgs-after.png
+
+
+
+Save in HTML format descriptions of functions available for programmers
+------------------------------------------------------------------------
+
+Static version of PDB browser available in GIMP.
+Plugin is available in ``Tools`` menu.
+
+* `pdb2HTML.py <pdb2HTML.py>`_
+* `gimp-doc.tar.bz2 <gimp-doc.tar.bz2>`_ --- documentation
+  available in GIMP 2.2, including sample CSS file
+
+
+Author & License
+------------------------------------------------------------------------
+
+Plugins are licensed under BSD-license.
+
+Author: Wojciech Mu³a, wojciech_mula@poczta.onet.pl
