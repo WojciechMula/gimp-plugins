@@ -7,7 +7,7 @@ def clear(data, width, height):
 
 	changed = False
 	
-	thres = 7*255 + 64
+	thres = 255**7 * 64
 	for y in xrange(1, height-1):
 		gimp.progress_update( ((y-2))/float(height-2) )
 
@@ -29,7 +29,7 @@ def clear(data, width, height):
 			h = row_c[x]
 			i = row_c[x+1]
 
-			if a+b+c+d+f+g+h+i >= thres:
+			if a*b*c*d*f*g*h*i >= thres:
 				row_b[x] = 255
 				changed  = True
 	return changed
