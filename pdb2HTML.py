@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# $Date: 2007-03-29 13:00:16 $, $Revision: 1.2 $
 
 import os
 from gimpfu import *
