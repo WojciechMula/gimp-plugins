@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# $Date: 2007-03-29 13:00:16 $, $Revision: 1.3 $
+# $Date: 2007-04-07 14:27:44 $, $Revision: 1.4 $
 
 from gimpfu import *
 
@@ -59,17 +59,21 @@ def python_clear_gscans(img, drawable, colnum=16, repeat=False):
 	height   = drawable.height
 	pr = drawable.get_pixel_rgn(0, 0, width, height)
 	
+	gimp.progress_init("Loading image...")
 	row  = [255]*(width+2)
 	data = []
 	data.append(row)
 	for y in xrange(height):
+		gimp.progress_update( y/float(height-1) )
 		data.append( [255] + map(ord, pr[0:width,y]) + [255] )
 	data.append(row)
 
 	while clear(data, width+2, height+2) and repeat:
 		pass
 	
+	gimp.progress_init("Saving back image...")
 	for y in xrange(height):
+		gimp.progress_update( y/float(height-1) )
 		pr[0:width,y] = ''.join(map(chr, data[y+1][1:-1]))
 	
 	drawable.flush()

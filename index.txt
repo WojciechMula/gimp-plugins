@@ -12,9 +12,10 @@ and must have executable attribute.
 Clear grayscale scans
 ------------------------------------------------------------------------
 
-This plugin clears background of b/w scanned images.  The letters have
-to be clear, and background should have low amount of dust, like on
-picture above.  In other cases plugin will not work properly.
+This plugin clears background of b/w scanned images.  Image, i.e
+letters/drawing have to be clear, and background should have low
+amount of dust, like on picture below.  In other cases result won't
+be good
 
 * `clear_gscans.py <clear_gscans.py>`_
 
@@ -42,6 +43,5 @@ Plugin is available from ``Tools/Python-fu`` menu.
 Author & License
 ------------------------------------------------------------------------
 
-Plugins are licensed under BSD-license.
-
-Author: Wojciech Mu³a, wojciech_mula@poczta.onet.pl
+* License: plugins are licensed under BSD-license.
+* Author: Wojciech Mu³a, wojciech_mula@poczta.onet.pl
