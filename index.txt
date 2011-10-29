@@ -44,4 +44,4 @@ Author & License
 ------------------------------------------------------------------------
 
 * License: plugins are licensed under BSD-license.
-* Author: Wojciech Mu≥a, wojciech_mula@poczta.onet.pl
+* Author: Wojciech Mu≈Ça, wojciech_mula@poczta.onet.pl
