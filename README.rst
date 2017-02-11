@@ -36,12 +36,9 @@ Static version of PDB browser available in GIMP.
 Plugin is available from ``Tools/Python-fu`` menu.
 
 * `pdb2HTML.py <pdb2HTML.py>`_
-* `gimp-doc.tar.bz2 <gimp-doc.tar.bz2>`_ --- documentation
-  available in GIMP 2.2, including sample CSS file
 
 
-Author & License
+License
 ------------------------------------------------------------------------
 
-* License: plugins are licensed under BSD-license.
-* Author: Wojciech Muła, wojciech_mula@poczta.onet.pl
+Plugins are licensed under BSD-license.
